@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 5)
+    (drawings 4)
     (tracks 21)
     (zones 0)
     (modules 1)
@@ -104,11 +104,9 @@
     (uvia_dia 0.3)
     (uvia_drill 0.1)
     (add_net "Net-(J1-Pad1)")
-    (add_net "Net-(J1-Pad10)")
     (add_net "Net-(J1-Pad2)")
     (add_net "Net-(J1-Pad3)")
     (add_net "Net-(J1-Pad4)")
-    (add_net "Net-(J1-Pad9)")
   )
 
   (module HFW8R-1STE1LF:HFW8R-1STE1LF (layer F.Cu) (tedit 5DADDFB4) (tstamp 5DADE0E3)
@@ -149,11 +147,10 @@
     )
   )
 
-  (gr_line (start 119.38 114.3) (end 119.38 101.6) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 149.86 114.3) (end 119.38 114.3) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 149.86 88.9) (end 149.86 114.3) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 119.38 88.9) (end 149.86 88.9) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 119.38 101.6) (end 119.38 88.9) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 126.365 104.775) (end 126.365 92.71) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 142.24 104.775) (end 126.365 104.775) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 142.24 92.71) (end 142.24 104.775) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 126.365 92.71) (end 142.24 92.71) (layer Edge.Cuts) (width 0.1) (tstamp 5DADE54A))
 
   (segment (start 130.16 98.425) (end 130.16 95.265) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 130.16 95.265) (end 131.445 93.98) (width 0.25) (layer F.Cu) (net 1))
